@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<title>Objekt nicht gefunden!</title>
+<link rev="made" href="mailto:josef.homolka@ph.tum.de" />
+<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    p, address {margin-left: 3em;}
+    span {font-size: smaller;}
+/*]]>*/--></style>
+</head>
+
+<body>
+<h1>Objekt nicht gefunden!</h1>
+<p>
+
+
+    Der angeforderte URL konnte auf dem Server nicht gefunden werden.
+
+  
+
+    Der Link auf der
+    <a href="http://www.physik.tu-muenchen.de/lehrstuehle/T30a/teachingW0607.shtml">verweisenden
+    Seite</a> scheint falsch oder nicht mehr aktuell zu sein.
+    Bitte informieren Sie den Autor
+    <a href="http://www.physik.tu-muenchen.de/lehrstuehle/T30a/teachingW0607.shtml">dieser Seite</a>
+    &uuml;ber den Fehler.
+
+  
+
+</p>
+<p>
+Sofern Sie dies f&uuml;r eine Fehlfunktion des Servers halten,
+informieren Sie bitte den 
+<a href="mailto:josef.homolka@ph.tum.de">Webmaster</a>
+hier&uuml;ber.
+
+</p>
+
+<h2>Error 404</h2>
+<address>
+  <a href="/">einrichtungen.physik.tu-muenchen.de</a><br />
+  
+  <span>Wed Mar 10 17:33:18 2010<br />
+  Apache/2.2.8 (Linux/SUSE)</span>
+</address>
+</body>
+</html>
+
