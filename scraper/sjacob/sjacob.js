@@ -79,16 +79,6 @@ async function scrapeAndDownloadPDFs(url, directory) {
             const examName = fileName.replace("_lsg.pdf", ".pdf");
             const solutionName = fileName;
             solutionIndex.push({ examName: examName, solution: solutionName, solutionLink: link.link })
-                /* //search for the corresponding exam
-                const examName = fileName.replace("_lsg.pdf", ".pdf");
-                console.log(examName)
-                const examLink = pdfLinks.find(element => element.link == examName);
-                if (examLink == undefined) {
-                    console.error(`Could not find exam for ${link.link}.`);
-                } else {
-                    index[examLink.name].solution = link.link;
-                    index[examLink.name].solutionFileName = fileName;
-                } */
         } else {
             const examLink = link.link;
             const examName = link.name;
@@ -136,6 +126,6 @@ async function scrapeAndDownloadPDFs(url, directory) {
 
 function printProgress(message) {
     if (!silent) {
-        printProgress(message);
+        console.log(message);
     }
 }

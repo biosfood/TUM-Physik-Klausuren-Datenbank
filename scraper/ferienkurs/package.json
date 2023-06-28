@@ -1,0 +1,16 @@
+{
+    "name": "ferienkurs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "ferienkurs.js",
+    "scripts": {
+        "start": "node ferienkurs.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "puppeteer": "^20.7.3",
+        "request": "^2.88.2"
+    }
+}
