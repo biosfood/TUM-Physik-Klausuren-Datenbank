@@ -1,4 +1,4 @@
-#Read text from a pdf file
+# Read text from a pdf file
 
 import PyPDF2
 import re
@@ -10,7 +10,7 @@ os.chdir(dname)
 
 # Open the pdf file
 filename = 'assets/Kurzfragensammlung_Ex3.pdf'
-pdfFileObj = open(filename,'rb')
+pdfFileObj = open(filename, 'rb')
 
 # Read the pdf file
 pdfReader = PyPDF2.PdfReader(pdfFileObj)
@@ -26,8 +26,8 @@ while count < num_pages:
     pageObj = pdfReader.pages[count]
     count +=1
     text += pageObj.extract_text() """
-    
+
 pageObj = pdfReader.pages[7]
 text += pageObj.extract_text()
-    
+
 print(text)
