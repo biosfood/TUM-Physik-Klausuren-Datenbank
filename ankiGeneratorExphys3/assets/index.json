@@ -1,0 +1,1477 @@
+{
+  "chapters": [
+    {
+      "number": "1",
+      "title": "Lichtwellen",
+      "chapters": [
+        {
+          "number": "1.1",
+          "losungUrl": "assets/output/losung1.1.png",
+          "questionUrl": "assets/output/question1.1.png"
+        },
+        {
+          "number": "1.2",
+          "losungUrl": "assets/output/losung1.2.png",
+          "questionUrl": "assets/output/question1.2.png"
+        },
+        {
+          "number": "1.3",
+          "losungUrl": "assets/output/losung1.3.png",
+          "questionUrl": "assets/output/question1.3.png"
+        },
+        {
+          "number": "1.4",
+          "losungUrl": "assets/output/losung1.4.png",
+          "questionUrl": "assets/output/question1.4.png"
+        },
+        {
+          "number": "1.5",
+          "losungUrl": "assets/output/losung1.5.png",
+          "questionUrl": "assets/output/question1.5.png"
+        },
+        {
+          "number": "1.6",
+          "losungUrl": "assets/output/losung1.6.png",
+          "questionUrl": "assets/output/question1.6.png"
+        },
+        {
+          "number": "1.7",
+          "losungUrl": "assets/output/losung1.7.png",
+          "questionUrl": "assets/output/question1.7.png"
+        },
+        {
+          "number": "1.8",
+          "losungUrl": "assets/output/losung1.8.png",
+          "questionUrl": "assets/output/question1.8.png"
+        },
+        {
+          "number": "1.9",
+          "losungUrl": "assets/output/losung1.9.png",
+          "questionUrl": "assets/output/question1.9.png"
+        },
+        {
+          "number": "1.10",
+          "losungUrl": "assets/output/losung1.10.png",
+          "questionUrl": "assets/output/question1.10.png"
+        },
+        {
+          "number": "1.11",
+          "losungUrl": "assets/output/losung1.11.png",
+          "questionUrl": "assets/output/question1.11.png"
+        },
+        {
+          "number": "1.12",
+          "losungUrl": "assets/output/losung1.12.png",
+          "questionUrl": "assets/output/question1.12.png"
+        },
+        {
+          "number": "1.13",
+          "losungUrl": "assets/output/losung1.13.png",
+          "questionUrl": "assets/output/question1.13.png"
+        },
+        {
+          "number": "1.14",
+          "losungUrl": "assets/output/losung1.14.png",
+          "questionUrl": "assets/output/question1.14.png"
+        },
+        {
+          "number": "1.15",
+          "losungUrl": "assets/output/losung1.15.png",
+          "questionUrl": "assets/output/question1.15.png"
+        },
+        {
+          "number": "1.16",
+          "losungUrl": "assets/output/losung1.16.png",
+          "questionUrl": "assets/output/question1.16.png"
+        },
+        {
+          "number": "1.17",
+          "losungUrl": "assets/output/losung1.17.png",
+          "questionUrl": "assets/output/question1.17.png"
+        },
+        {
+          "number": "1.18",
+          "losungUrl": "assets/output/losung1.18.png",
+          "questionUrl": "assets/output/question1.18.png"
+        },
+        {
+          "number": "1.19",
+          "losungUrl": "assets/output/losung1.19.png",
+          "questionUrl": "assets/output/question1.19.png"
+        },
+        {
+          "number": "1.20",
+          "losungUrl": "assets/output/losung1.20.png",
+          "questionUrl": "assets/output/question1.20.png"
+        },
+        {
+          "number": "1.21",
+          "losungUrl": "assets/output/losung1.21.png",
+          "questionUrl": "assets/output/question1.21.png"
+        },
+        {
+          "number": "1.22",
+          "losungUrl": "assets/output/losung1.22.png",
+          "questionUrl": "assets/output/question1.22.png"
+        },
+        {
+          "number": "1.23",
+          "losungUrl": "assets/output/losung1.23.png",
+          "questionUrl": "assets/output/question1.23.png"
+        },
+        {
+          "number": "1.24",
+          "losungUrl": "assets/output/losung1.24.png",
+          "questionUrl": "assets/output/question1.24.png"
+        },
+        {
+          "number": "1.25",
+          "losungUrl": "assets/output/losung1.25.png",
+          "questionUrl": "assets/output/question1.25.png"
+        },
+        {
+          "number": "1.26",
+          "losungUrl": "assets/output/losung1.26.png",
+          "questionUrl": "assets/output/question1.26.png"
+        },
+        {
+          "number": "1.27",
+          "losungUrl": "assets/output/losung1.27.png",
+          "questionUrl": "assets/output/question1.27.png"
+        },
+        {
+          "number": "1.28",
+          "losungUrl": "assets/output/losung1.28.png",
+          "questionUrl": "assets/output/question1.28.png"
+        },
+        {
+          "number": "1.29",
+          "losungUrl": "assets/output/losung1.29.png",
+          "questionUrl": "assets/output/question1.29.png"
+        },
+        {
+          "number": "1.30",
+          "losungUrl": "assets/output/losung1.30.png",
+          "questionUrl": "assets/output/question1.30.png"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Fouriertransformation",
+      "chapters": [
+        {
+          "number": "2.1",
+          "losungUrl": "assets/output/losung2.1.png",
+          "questionUrl": "assets/output/question2.1.png"
+        },
+        {
+          "number": "2.2.",
+          "losungUrl": "assets/output/losung2.2..png",
+          "questionUrl": "assets/output/question2.2..png"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Dispersion",
+      "chapters": [
+        {
+          "number": "3.1",
+          "losungUrl": "assets/output/losung3.1.png",
+          "questionUrl": "assets/output/question3.1.png"
+        },
+        {
+          "number": "3.2.",
+          "losungUrl": "assets/output/losung3.2..png",
+          "questionUrl": "assets/output/question3.2..png"
+        },
+        {
+          "number": "3.3",
+          "losungUrl": "assets/output/losung3.3.png",
+          "questionUrl": "assets/output/question3.3.png"
+        },
+        {
+          "number": "3.4",
+          "losungUrl": "assets/output/losung3.4.png",
+          "questionUrl": "assets/output/question3.4.png"
+        },
+        {
+          "number": "3.5",
+          "losungUrl": "assets/output/losung3.5.png",
+          "questionUrl": "assets/output/question3.5.png"
+        },
+        {
+          "number": "3.6",
+          "losungUrl": "assets/output/losung3.6.png",
+          "questionUrl": "assets/output/question3.6.png"
+        },
+        {
+          "number": "3.7",
+          "losungUrl": "assets/output/losung3.7.png",
+          "questionUrl": "assets/output/question3.7.png"
+        },
+        {
+          "number": "3.8",
+          "losungUrl": "assets/output/losung3.8.png",
+          "questionUrl": "assets/output/question3.8.png"
+        },
+        {
+          "number": "3.9",
+          "losungUrl": "assets/output/losung3.9.png",
+          "questionUrl": "assets/output/question3.9.png"
+        },
+        {
+          "number": "3.10",
+          "losungUrl": "assets/output/losung3.10.png",
+          "questionUrl": "assets/output/question3.10.png"
+        },
+        {
+          "number": "3.11",
+          "losungUrl": "assets/output/losung3.11.png",
+          "questionUrl": "assets/output/question3.11.png"
+        }
+      ]
+    },
+    {
+      "number": "gro8",
+      "title": "und",
+      "chapters": [
+        {
+          "number": "3.12",
+          "losungUrl": "assets/output/losung3.12.png",
+          "questionUrl": "assets/output/question3.12.png"
+        },
+        {
+          "number": "3.13",
+          "losungUrl": "assets/output/losung3.13.png",
+          "questionUrl": "assets/output/question3.13.png"
+        },
+        {
+          "number": "3.14",
+          "losungUrl": "assets/output/losung3.14.png",
+          "questionUrl": "assets/output/question3.14.png"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Brechung",
+      "chapters": [
+        {
+          "number": "4.1",
+          "losungUrl": "assets/output/losung4.1.png",
+          "questionUrl": "assets/output/question4.1.png"
+        },
+        {
+          "number": "4.2",
+          "losungUrl": "assets/output/losung4.2.png",
+          "questionUrl": "assets/output/question4.2.png"
+        },
+        {
+          "number": "4.3",
+          "losungUrl": "assets/output/losung4.3.png",
+          "questionUrl": "assets/output/question4.3.png"
+        },
+        {
+          "number": "4.4",
+          "losungUrl": "assets/output/losung4.4.png",
+          "questionUrl": "assets/output/question4.4.png"
+        },
+        {
+          "number": "4.5",
+          "losungUrl": "assets/output/losung4.5.png",
+          "questionUrl": "assets/output/question4.5.png"
+        },
+        {
+          "number": "4.6",
+          "losungUrl": "assets/output/losung4.6.png",
+          "questionUrl": "assets/output/question4.6.png"
+        },
+        {
+          "number": "4.7",
+          "losungUrl": "assets/output/losung4.7.png",
+          "questionUrl": "assets/output/question4.7.png"
+        },
+        {
+          "number": "4.8",
+          "losungUrl": "assets/output/losung4.8.png",
+          "questionUrl": "assets/output/question4.8.png"
+        },
+        {
+          "number": "4.9",
+          "losungUrl": "assets/output/losung4.9.png",
+          "questionUrl": "assets/output/question4.9.png"
+        },
+        {
+          "number": "4.10",
+          "losungUrl": "assets/output/losung4.10.png",
+          "questionUrl": "assets/output/question4.10.png"
+        },
+        {
+          "number": "4.11",
+          "losungUrl": "assets/output/losung4.11.png",
+          "questionUrl": "assets/output/question4.11.png"
+        },
+        {
+          "number": "4.12",
+          "losungUrl": "assets/output/losung4.12.png",
+          "questionUrl": "assets/output/question4.12.png"
+        },
+        {
+          "number": "4.13",
+          "losungUrl": "assets/output/losung4.13.png",
+          "questionUrl": "assets/output/question4.13.png"
+        },
+        {
+          "number": "4.14",
+          "losungUrl": "assets/output/losung4.14.png",
+          "questionUrl": "assets/output/question4.14.png"
+        },
+        {
+          "number": "4.15",
+          "losungUrl": "assets/output/losung4.15.png",
+          "questionUrl": "assets/output/question4.15.png"
+        },
+        {
+          "number": "4.16",
+          "losungUrl": "assets/output/losung4.16.png",
+          "questionUrl": "assets/output/question4.16.png"
+        },
+        {
+          "number": "4.17",
+          "losungUrl": "assets/output/losung4.17.png",
+          "questionUrl": "assets/output/question4.17.png"
+        },
+        {
+          "number": "4.18",
+          "losungUrl": "assets/output/losung4.18.png",
+          "questionUrl": "assets/output/question4.18.png"
+        },
+        {
+          "number": "4.19",
+          "losungUrl": "assets/output/losung4.19.png",
+          "questionUrl": "assets/output/question4.19.png"
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "Fresnelsche",
+      "chapters": [
+        {
+          "number": "5.1",
+          "losungUrl": "assets/output/losung5.1.png",
+          "questionUrl": "assets/output/question5.1.png"
+        },
+        {
+          "number": "5.2",
+          "losungUrl": "assets/output/losung5.2.png",
+          "questionUrl": "assets/output/question5.2.png"
+        },
+        {
+          "number": "5.3",
+          "losungUrl": "assets/output/losung5.3.png",
+          "questionUrl": "assets/output/question5.3.png"
+        },
+        {
+          "number": "5.4",
+          "losungUrl": "assets/output/losung5.4.png",
+          "questionUrl": "assets/output/question5.4.png"
+        },
+        {
+          "number": "5.9",
+          "losungUrl": "assets/output/losung5.9.png",
+          "questionUrl": "assets/output/question5.9.png"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "Polarisation",
+      "chapters": [
+        {
+          "number": "6.1",
+          "losungUrl": "assets/output/losung6.1.png",
+          "questionUrl": "assets/output/question6.1.png"
+        },
+        {
+          "number": "6.2",
+          "losungUrl": "assets/output/losung6.2.png",
+          "questionUrl": "assets/output/question6.2.png"
+        },
+        {
+          "number": "6.3.",
+          "losungUrl": "assets/output/losung6.3..png",
+          "questionUrl": "assets/output/question6.3..png"
+        },
+        {
+          "number": "6.4",
+          "losungUrl": "assets/output/losung6.4.png",
+          "questionUrl": "assets/output/question6.4.png"
+        },
+        {
+          "number": "6.5",
+          "losungUrl": "assets/output/losung6.5.png",
+          "questionUrl": "assets/output/question6.5.png"
+        },
+        {
+          "number": "6.6",
+          "losungUrl": "assets/output/losung6.6.png",
+          "questionUrl": "assets/output/question6.6.png"
+        },
+        {
+          "number": "6.7",
+          "losungUrl": "assets/output/losung6.7.png",
+          "questionUrl": "assets/output/question6.7.png"
+        },
+        {
+          "number": "6.8",
+          "losungUrl": "assets/output/losung6.8.png",
+          "questionUrl": "assets/output/question6.8.png"
+        },
+        {
+          "number": "6.9",
+          "losungUrl": "assets/output/losung6.9.png",
+          "questionUrl": "assets/output/question6.9.png"
+        },
+        {
+          "number": "6.10",
+          "losungUrl": "assets/output/losung6.10.png",
+          "questionUrl": "assets/output/question6.10.png"
+        },
+        {
+          "number": "6.11",
+          "losungUrl": "assets/output/losung6.11.png",
+          "questionUrl": "assets/output/question6.11.png"
+        },
+        {
+          "number": "6.12",
+          "losungUrl": "assets/output/losung6.12.png",
+          "questionUrl": "assets/output/question6.12.png"
+        },
+        {
+          "number": "6.13.",
+          "losungUrl": "assets/output/losung6.13..png",
+          "questionUrl": "assets/output/question6.13..png"
+        },
+        {
+          "number": "6.14",
+          "losungUrl": "assets/output/losung6.14.png",
+          "questionUrl": "assets/output/question6.14.png"
+        }
+      ]
+    },
+    {
+      "number": "A/2:",
+      "title": "aus",
+      "chapters": []
+    },
+    {
+      "number": "/4:",
+      "title": "es",
+      "chapters": [
+        {
+          "number": "6.15",
+          "losungUrl": "assets/output/losung6.15.png",
+          "questionUrl": "assets/output/question6.15.png"
+        },
+        {
+          "number": "6.16",
+          "losungUrl": "assets/output/losung6.16.png",
+          "questionUrl": "assets/output/question6.16.png"
+        },
+        {
+          "number": "6.17",
+          "losungUrl": "assets/output/losung6.17.png",
+          "questionUrl": "assets/output/question6.17.png"
+        },
+        {
+          "number": "6.18",
+          "losungUrl": "assets/output/losung6.18.png",
+          "questionUrl": "assets/output/question6.18.png"
+        },
+        {
+          "number": "6.19",
+          "losungUrl": "assets/output/losung6.19.png",
+          "questionUrl": "assets/output/question6.19.png"
+        },
+        {
+          "number": "6.20",
+          "losungUrl": "assets/output/losung6.20.png",
+          "questionUrl": "assets/output/question6.20.png"
+        },
+        {
+          "number": "6.21",
+          "losungUrl": "assets/output/losung6.21.png",
+          "questionUrl": "assets/output/question6.21.png"
+        },
+        {
+          "number": "6.22",
+          "losungUrl": "assets/output/losung6.22.png",
+          "questionUrl": "assets/output/question6.22.png"
+        },
+        {
+          "number": "6.23",
+          "losungUrl": "assets/output/losung6.23.png",
+          "questionUrl": "assets/output/question6.23.png"
+        },
+        {
+          "number": "6.24",
+          "losungUrl": "assets/output/losung6.24.png",
+          "questionUrl": "assets/output/question6.24.png"
+        },
+        {
+          "number": "6.25",
+          "losungUrl": "assets/output/losung6.25.png",
+          "questionUrl": "assets/output/question6.25.png"
+        },
+        {
+          "number": "6.26",
+          "losungUrl": "assets/output/losung6.26.png",
+          "questionUrl": "assets/output/question6.26.png"
+        },
+        {
+          "number": "6.27",
+          "losungUrl": "assets/output/losung6.27.png",
+          "questionUrl": "assets/output/question6.27.png"
+        },
+        {
+          "number": "6.28",
+          "losungUrl": "assets/output/losung6.28.png",
+          "questionUrl": "assets/output/question6.28.png"
+        },
+        {
+          "number": "6.29",
+          "losungUrl": "assets/output/losung6.29.png",
+          "questionUrl": "assets/output/question6.29.png"
+        },
+        {
+          "number": "6.30",
+          "losungUrl": "assets/output/losung6.30.png",
+          "questionUrl": "assets/output/question6.30.png"
+        },
+        {
+          "number": "6.31",
+          "losungUrl": "assets/output/losung6.31.png",
+          "questionUrl": "assets/output/question6.31.png"
+        },
+        {
+          "number": "6.32",
+          "losungUrl": "assets/output/losung6.32.png",
+          "questionUrl": "assets/output/question6.32.png"
+        },
+        {
+          "number": "6.33",
+          "losungUrl": "assets/output/losung6.33.png",
+          "questionUrl": "assets/output/question6.33.png"
+        },
+        {
+          "number": "6.34",
+          "losungUrl": "assets/output/losung6.34.png",
+          "questionUrl": "assets/output/question6.34.png"
+        },
+        {
+          "number": "6.35",
+          "losungUrl": "assets/output/losung6.35.png",
+          "questionUrl": "assets/output/question6.35.png"
+        },
+        {
+          "number": "6.36",
+          "losungUrl": "assets/output/losung6.36.png",
+          "questionUrl": "assets/output/question6.36.png"
+        },
+        {
+          "number": "6.37",
+          "losungUrl": "assets/output/losung6.37.png",
+          "questionUrl": "assets/output/question6.37.png"
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "Doppelbrechung",
+      "chapters": [
+        {
+          "number": "7.1",
+          "losungUrl": "assets/output/losung7.1.png",
+          "questionUrl": "assets/output/question7.1.png"
+        },
+        {
+          "number": "7.2",
+          "losungUrl": "assets/output/losung7.2.png",
+          "questionUrl": "assets/output/question7.2.png"
+        },
+        {
+          "number": "7.3",
+          "losungUrl": "assets/output/losung7.3.png",
+          "questionUrl": "assets/output/question7.3.png"
+        },
+        {
+          "number": "7.4",
+          "losungUrl": "assets/output/losung7.4.png",
+          "questionUrl": "assets/output/question7.4.png"
+        },
+        {
+          "number": "7.5",
+          "losungUrl": "assets/output/losung7.5.png",
+          "questionUrl": "assets/output/question7.5.png"
+        },
+        {
+          "number": "7.6",
+          "losungUrl": "assets/output/losung7.6.png",
+          "questionUrl": "assets/output/question7.6.png"
+        },
+        {
+          "number": "7.7",
+          "losungUrl": "assets/output/losung7.7.png",
+          "questionUrl": "assets/output/question7.7.png"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "Geometrische",
+      "chapters": [
+        {
+          "number": "8.1",
+          "losungUrl": "assets/output/losung8.1.png",
+          "questionUrl": "assets/output/question8.1.png"
+        },
+        {
+          "number": "8.2",
+          "losungUrl": "assets/output/losung8.2.png",
+          "questionUrl": "assets/output/question8.2.png"
+        },
+        {
+          "number": "8.3.",
+          "losungUrl": "assets/output/losung8.3..png",
+          "questionUrl": "assets/output/question8.3..png"
+        },
+        {
+          "number": "8.4",
+          "losungUrl": "assets/output/losung8.4.png",
+          "questionUrl": "assets/output/question8.4.png"
+        },
+        {
+          "number": "8.5",
+          "losungUrl": "assets/output/losung8.5.png",
+          "questionUrl": "assets/output/question8.5.png"
+        },
+        {
+          "number": "8.6",
+          "losungUrl": "assets/output/losung8.6.png",
+          "questionUrl": "assets/output/question8.6.png"
+        },
+        {
+          "number": "8.7",
+          "losungUrl": "assets/output/losung8.7.png",
+          "questionUrl": "assets/output/question8.7.png"
+        },
+        {
+          "number": "8.8",
+          "losungUrl": "assets/output/losung8.8.png",
+          "questionUrl": "assets/output/question8.8.png"
+        },
+        {
+          "number": "8.9",
+          "losungUrl": "assets/output/losung8.9.png",
+          "questionUrl": "assets/output/question8.9.png"
+        },
+        {
+          "number": "8.10",
+          "losungUrl": "assets/output/losung8.10.png",
+          "questionUrl": "assets/output/question8.10.png"
+        },
+        {
+          "number": "8.11",
+          "losungUrl": "assets/output/losung8.11.png",
+          "questionUrl": "assets/output/question8.11.png"
+        },
+        {
+          "number": "8.12",
+          "losungUrl": "assets/output/losung8.12.png",
+          "questionUrl": "assets/output/question8.12.png"
+        },
+        {
+          "number": "8.13.",
+          "losungUrl": "assets/output/losung8.13..png",
+          "questionUrl": "assets/output/question8.13..png"
+        },
+        {
+          "number": "8.14",
+          "losungUrl": "assets/output/losung8.14.png",
+          "questionUrl": "assets/output/question8.14.png"
+        },
+        {
+          "number": "8.15",
+          "losungUrl": "assets/output/losung8.15.png",
+          "questionUrl": "assets/output/question8.15.png"
+        },
+        {
+          "number": "8.16",
+          "losungUrl": "assets/output/losung8.16.png",
+          "questionUrl": "assets/output/question8.16.png"
+        },
+        {
+          "number": "8.17",
+          "losungUrl": "assets/output/losung8.17.png",
+          "questionUrl": "assets/output/question8.17.png"
+        },
+        {
+          "number": "8.18",
+          "losungUrl": "assets/output/losung8.18.png",
+          "questionUrl": "assets/output/question8.18.png"
+        },
+        {
+          "number": "8.19",
+          "losungUrl": "assets/output/losung8.19.png",
+          "questionUrl": "assets/output/question8.19.png"
+        },
+        {
+          "number": "8.20",
+          "losungUrl": "assets/output/losung8.20.png",
+          "questionUrl": "assets/output/question8.20.png"
+        },
+        {
+          "number": "8.21",
+          "losungUrl": "assets/output/losung8.21.png",
+          "questionUrl": "assets/output/question8.21.png"
+        },
+        {
+          "number": "8.22",
+          "losungUrl": "assets/output/losung8.22.png",
+          "questionUrl": "assets/output/question8.22.png"
+        },
+        {
+          "number": "8.23",
+          "losungUrl": "assets/output/losung8.23.png",
+          "questionUrl": "assets/output/question8.23.png"
+        },
+        {
+          "number": "8.24",
+          "losungUrl": "assets/output/losung8.24.png",
+          "questionUrl": "assets/output/question8.24.png"
+        },
+        {
+          "number": "8.25",
+          "losungUrl": "assets/output/losung8.25.png",
+          "questionUrl": "assets/output/question8.25.png"
+        },
+        {
+          "number": "8.26",
+          "losungUrl": "assets/output/losung8.26.png",
+          "questionUrl": "assets/output/question8.26.png"
+        },
+        {
+          "number": "8.27",
+          "losungUrl": "assets/output/losung8.27.png",
+          "questionUrl": "assets/output/question8.27.png"
+        },
+        {
+          "number": "8.28",
+          "losungUrl": "assets/output/losung8.28.png",
+          "questionUrl": "assets/output/question8.28.png"
+        },
+        {
+          "number": "8.29",
+          "losungUrl": "assets/output/losung8.29.png",
+          "questionUrl": "assets/output/question8.29.png"
+        },
+        {
+          "number": "8.30",
+          "losungUrl": "assets/output/losung8.30.png",
+          "questionUrl": "assets/output/question8.30.png"
+        },
+        {
+          "number": "8.31",
+          "losungUrl": "assets/output/losung8.31.png",
+          "questionUrl": "assets/output/question8.31.png"
+        },
+        {
+          "number": "8.32",
+          "losungUrl": "assets/output/losung8.32.png",
+          "questionUrl": "assets/output/question8.32.png"
+        },
+        {
+          "number": "8.33",
+          "losungUrl": "assets/output/losung8.33.png",
+          "questionUrl": "assets/output/question8.33.png"
+        },
+        {
+          "number": "8.34",
+          "losungUrl": "assets/output/losung8.34.png",
+          "questionUrl": "assets/output/question8.34.png"
+        },
+        {
+          "number": "8.35",
+          "losungUrl": "assets/output/losung8.35.png",
+          "questionUrl": "assets/output/question8.35.png"
+        },
+        {
+          "number": "8.36",
+          "losungUrl": "assets/output/losung8.36.png",
+          "questionUrl": "assets/output/question8.36.png"
+        },
+        {
+          "number": "8.37",
+          "losungUrl": "assets/output/losung8.37.png",
+          "questionUrl": "assets/output/question8.37.png"
+        },
+        {
+          "number": "8.38",
+          "losungUrl": "assets/output/losung8.38.png",
+          "questionUrl": "assets/output/question8.38.png"
+        },
+        {
+          "number": "8.39",
+          "losungUrl": "assets/output/losung8.39.png",
+          "questionUrl": "assets/output/question8.39.png"
+        },
+        {
+          "number": "8.40",
+          "losungUrl": "assets/output/losung8.40.png",
+          "questionUrl": "assets/output/question8.40.png"
+        },
+        {
+          "number": "8.41",
+          "losungUrl": "assets/output/losung8.41.png",
+          "questionUrl": "assets/output/question8.41.png"
+        },
+        {
+          "number": "8.42",
+          "losungUrl": "assets/output/losung8.42.png",
+          "questionUrl": "assets/output/question8.42.png"
+        },
+        {
+          "number": "8.43",
+          "losungUrl": "assets/output/losung8.43.png",
+          "questionUrl": "assets/output/question8.43.png"
+        },
+        {
+          "number": "8.44",
+          "losungUrl": "assets/output/losung8.44.png",
+          "questionUrl": "assets/output/question8.44.png"
+        },
+        {
+          "number": "8.45",
+          "losungUrl": "assets/output/losung8.45.png",
+          "questionUrl": "assets/output/question8.45.png"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "cm.",
+      "chapters": [
+        {
+          "number": "8.46",
+          "losungUrl": "assets/output/losung8.46.png",
+          "questionUrl": "assets/output/question8.46.png"
+        },
+        {
+          "number": "8.47",
+          "losungUrl": "assets/output/losung8.47.png",
+          "questionUrl": "assets/output/question8.47.png"
+        },
+        {
+          "number": "8.48",
+          "losungUrl": "assets/output/losung8.48.png",
+          "questionUrl": "assets/output/question8.48.png"
+        },
+        {
+          "number": "8.49",
+          "losungUrl": "assets/output/losung8.49.png",
+          "questionUrl": "assets/output/question8.49.png"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "Prismen",
+      "chapters": [
+        {
+          "number": "9.1",
+          "losungUrl": "assets/output/losung9.1.png",
+          "questionUrl": "assets/output/question9.1.png"
+        },
+        {
+          "number": "9.2",
+          "losungUrl": "assets/output/losung9.2.png",
+          "questionUrl": "assets/output/question9.2.png"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "Matrixmethode",
+      "chapters": [
+        {
+          "number": "10.1",
+          "losungUrl": "assets/output/losung10.1.png",
+          "questionUrl": "assets/output/question10.1.png"
+        },
+        {
+          "number": "10.2",
+          "losungUrl": "assets/output/losung10.2.png",
+          "questionUrl": "assets/output/question10.2.png"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "Optische",
+      "chapters": [
+        {
+          "number": "11.1",
+          "losungUrl": "assets/output/losung11.1.png",
+          "questionUrl": "assets/output/question11.1.png"
+        },
+        {
+          "number": "11.2",
+          "losungUrl": "assets/output/losung11.2.png",
+          "questionUrl": "assets/output/question11.2.png"
+        },
+        {
+          "number": "11.3",
+          "losungUrl": "assets/output/losung11.3.png",
+          "questionUrl": "assets/output/question11.3.png"
+        },
+        {
+          "number": "11.4",
+          "losungUrl": "assets/output/losung11.4.png",
+          "questionUrl": "assets/output/question11.4.png"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "Beugung",
+      "chapters": [
+        {
+          "number": "12.1",
+          "losungUrl": "assets/output/losung12.1.png",
+          "questionUrl": "assets/output/question12.1.png"
+        },
+        {
+          "number": "12.2",
+          "losungUrl": "assets/output/losung12.2.png",
+          "questionUrl": "assets/output/question12.2.png"
+        },
+        {
+          "number": "12.3",
+          "losungUrl": "assets/output/losung12.3.png",
+          "questionUrl": "assets/output/question12.3.png"
+        },
+        {
+          "number": "12.4",
+          "losungUrl": "assets/output/losung12.4.png",
+          "questionUrl": "assets/output/question12.4.png"
+        },
+        {
+          "number": "12.5",
+          "losungUrl": "assets/output/losung12.5.png",
+          "questionUrl": "assets/output/question12.5.png"
+        },
+        {
+          "number": "12.6",
+          "losungUrl": "assets/output/losung12.6.png",
+          "questionUrl": "assets/output/question12.6.png"
+        },
+        {
+          "number": "12.7",
+          "losungUrl": "assets/output/losung12.7.png",
+          "questionUrl": "assets/output/question12.7.png"
+        },
+        {
+          "number": "12.8",
+          "losungUrl": "assets/output/losung12.8.png",
+          "questionUrl": "assets/output/question12.8.png"
+        },
+        {
+          "number": "12.9",
+          "losungUrl": "assets/output/losung12.9.png",
+          "questionUrl": "assets/output/question12.9.png"
+        }
+      ]
+    },
+    {
+      "number": "13.",
+      "title": "Interferenz",
+      "chapters": [
+        {
+          "number": "13.1",
+          "losungUrl": "assets/output/losung13.1.png",
+          "questionUrl": "assets/output/question13.1.png"
+        },
+        {
+          "number": "13.2",
+          "losungUrl": "assets/output/losung13.2.png",
+          "questionUrl": "assets/output/question13.2.png"
+        },
+        {
+          "number": "13.3.",
+          "losungUrl": "assets/output/losung13.3..png",
+          "questionUrl": "assets/output/question13.3..png"
+        },
+        {
+          "number": "13.4",
+          "losungUrl": "assets/output/losung13.4.png",
+          "questionUrl": "assets/output/question13.4.png"
+        },
+        {
+          "number": "13.5",
+          "losungUrl": "assets/output/losung13.5.png",
+          "questionUrl": "assets/output/question13.5.png"
+        },
+        {
+          "number": "13.6",
+          "losungUrl": "assets/output/losung13.6.png",
+          "questionUrl": "assets/output/question13.6.png"
+        },
+        {
+          "number": "13.7",
+          "losungUrl": "assets/output/losung13.7.png",
+          "questionUrl": "assets/output/question13.7.png"
+        },
+        {
+          "number": "13.8",
+          "losungUrl": "assets/output/losung13.8.png",
+          "questionUrl": "assets/output/question13.8.png"
+        },
+        {
+          "number": "13.9",
+          "losungUrl": "assets/output/losung13.9.png",
+          "questionUrl": "assets/output/question13.9.png"
+        },
+        {
+          "number": "13.10",
+          "losungUrl": "assets/output/losung13.10.png",
+          "questionUrl": "assets/output/question13.10.png"
+        },
+        {
+          "number": "13.11",
+          "losungUrl": "assets/output/losung13.11.png",
+          "questionUrl": "assets/output/question13.11.png"
+        },
+        {
+          "number": "13.12",
+          "losungUrl": "assets/output/losung13.12.png",
+          "questionUrl": "assets/output/question13.12.png"
+        },
+        {
+          "number": "13.14",
+          "losungUrl": "assets/output/losung13.14.png",
+          "questionUrl": "assets/output/question13.14.png"
+        },
+        {
+          "number": "13.15",
+          "losungUrl": "assets/output/losung13.15.png",
+          "questionUrl": "assets/output/question13.15.png"
+        },
+        {
+          "number": "13.16",
+          "losungUrl": "assets/output/losung13.16.png",
+          "questionUrl": "assets/output/question13.16.png"
+        },
+        {
+          "number": "13.17",
+          "losungUrl": "assets/output/losung13.17.png",
+          "questionUrl": "assets/output/question13.17.png"
+        },
+        {
+          "number": "13.18",
+          "losungUrl": "assets/output/losung13.18.png",
+          "questionUrl": "assets/output/question13.18.png"
+        },
+        {
+          "number": "13.19",
+          "losungUrl": "assets/output/losung13.19.png",
+          "questionUrl": "assets/output/question13.19.png"
+        },
+        {
+          "number": "13.20",
+          "losungUrl": "assets/output/losung13.20.png",
+          "questionUrl": "assets/output/question13.20.png"
+        },
+        {
+          "number": "13.21",
+          "losungUrl": "assets/output/losung13.21.png",
+          "questionUrl": "assets/output/question13.21.png"
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "Gitter",
+      "chapters": [
+        {
+          "number": "14.1",
+          "losungUrl": "assets/output/losung14.1.png",
+          "questionUrl": "assets/output/question14.1.png"
+        },
+        {
+          "number": "14.2",
+          "losungUrl": "assets/output/losung14.2.png",
+          "questionUrl": "assets/output/question14.2.png"
+        },
+        {
+          "number": "14.3",
+          "losungUrl": "assets/output/losung14.3.png",
+          "questionUrl": "assets/output/question14.3.png"
+        },
+        {
+          "number": "14.4",
+          "losungUrl": "assets/output/losung14.4.png",
+          "questionUrl": "assets/output/question14.4.png"
+        },
+        {
+          "number": "14.5",
+          "losungUrl": "assets/output/losung14.5.png",
+          "questionUrl": "assets/output/question14.5.png"
+        },
+        {
+          "number": "14.6",
+          "losungUrl": "assets/output/losung14.6.png",
+          "questionUrl": "assets/output/question14.6.png"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "Quanten",
+      "chapters": [
+        {
+          "number": "15.1",
+          "losungUrl": "assets/output/losung15.1.png",
+          "questionUrl": "assets/output/question15.1.png"
+        },
+        {
+          "number": "15.2",
+          "losungUrl": "assets/output/losung15.2.png",
+          "questionUrl": "assets/output/question15.2.png"
+        },
+        {
+          "number": "15.3.",
+          "losungUrl": "assets/output/losung15.3..png",
+          "questionUrl": "assets/output/question15.3..png"
+        },
+        {
+          "number": "15.4",
+          "losungUrl": "assets/output/losung15.4.png",
+          "questionUrl": "assets/output/question15.4.png"
+        },
+        {
+          "number": "15.5",
+          "losungUrl": "assets/output/losung15.5.png",
+          "questionUrl": "assets/output/question15.5.png"
+        },
+        {
+          "number": "15.6",
+          "losungUrl": "assets/output/losung15.6.png",
+          "questionUrl": "assets/output/question15.6.png"
+        },
+        {
+          "number": "15.7",
+          "losungUrl": "assets/output/losung15.7.png",
+          "questionUrl": "assets/output/question15.7.png"
+        },
+        {
+          "number": "15.8",
+          "losungUrl": "assets/output/losung15.8.png",
+          "questionUrl": "assets/output/question15.8.png"
+        },
+        {
+          "number": "15.9",
+          "losungUrl": "assets/output/losung15.9.png",
+          "questionUrl": "assets/output/question15.9.png"
+        },
+        {
+          "number": "15.10",
+          "losungUrl": "assets/output/losung15.10.png",
+          "questionUrl": "assets/output/question15.10.png"
+        },
+        {
+          "number": "15.11",
+          "losungUrl": "assets/output/losung15.11.png",
+          "questionUrl": "assets/output/question15.11.png"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "title": "Comptoneffekt",
+      "chapters": [
+        {
+          "number": "16.1",
+          "losungUrl": "assets/output/losung16.1.png",
+          "questionUrl": "assets/output/question16.1.png"
+        },
+        {
+          "number": "16.2",
+          "losungUrl": "assets/output/losung16.2.png",
+          "questionUrl": "assets/output/question16.2.png"
+        },
+        {
+          "number": "16.3.",
+          "losungUrl": "assets/output/losung16.3..png",
+          "questionUrl": "assets/output/question16.3..png"
+        },
+        {
+          "number": "16.4",
+          "losungUrl": "assets/output/losung16.4.png",
+          "questionUrl": "assets/output/question16.4.png"
+        },
+        {
+          "number": "16.5",
+          "losungUrl": "assets/output/losung16.5.png",
+          "questionUrl": "assets/output/question16.5.png"
+        },
+        {
+          "number": "16.6",
+          "losungUrl": "assets/output/losung16.6.png",
+          "questionUrl": "assets/output/question16.6.png"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "title": "Photoeffekt",
+      "chapters": [
+        {
+          "number": "17.1",
+          "losungUrl": "assets/output/losung17.1.png",
+          "questionUrl": "assets/output/question17.1.png"
+        },
+        {
+          "number": "17.2",
+          "losungUrl": "assets/output/losung17.2.png",
+          "questionUrl": "assets/output/question17.2.png"
+        },
+        {
+          "number": "17.3.",
+          "losungUrl": "assets/output/losung17.3..png",
+          "questionUrl": "assets/output/question17.3..png"
+        },
+        {
+          "number": "17.4.",
+          "losungUrl": "assets/output/losung17.4..png",
+          "questionUrl": "assets/output/question17.4..png"
+        },
+        {
+          "number": "17.5",
+          "losungUrl": "assets/output/losung17.5.png",
+          "questionUrl": "assets/output/question17.5.png"
+        },
+        {
+          "number": "17.6",
+          "losungUrl": "assets/output/losung17.6.png",
+          "questionUrl": "assets/output/question17.6.png"
+        },
+        {
+          "number": "17.7",
+          "losungUrl": "assets/output/losung17.7.png",
+          "questionUrl": "assets/output/question17.7.png"
+        },
+        {
+          "number": "17.8",
+          "losungUrl": "assets/output/losung17.8.png",
+          "questionUrl": "assets/output/question17.8.png"
+        },
+        {
+          "number": "17.9",
+          "losungUrl": "assets/output/losung17.9.png",
+          "questionUrl": "assets/output/question17.9.png"
+        },
+        {
+          "number": "17.10",
+          "losungUrl": "assets/output/losung17.10.png",
+          "questionUrl": "assets/output/question17.10.png"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "title": "Schwarzkorperstrahlung",
+      "chapters": [
+        {
+          "number": "18.1",
+          "losungUrl": "assets/output/losung18.1.png",
+          "questionUrl": "assets/output/question18.1.png"
+        },
+        {
+          "number": "18.2",
+          "losungUrl": "assets/output/losung18.2.png",
+          "questionUrl": "assets/output/question18.2.png"
+        },
+        {
+          "number": "18.3.",
+          "losungUrl": "assets/output/losung18.3..png",
+          "questionUrl": "assets/output/question18.3..png"
+        },
+        {
+          "number": "18.4",
+          "losungUrl": "assets/output/losung18.4.png",
+          "questionUrl": "assets/output/question18.4.png"
+        },
+        {
+          "number": "18.5",
+          "losungUrl": "assets/output/losung18.5.png",
+          "questionUrl": "assets/output/question18.5.png"
+        },
+        {
+          "number": "18.6",
+          "losungUrl": "assets/output/losung18.6.png",
+          "questionUrl": "assets/output/question18.6.png"
+        },
+        {
+          "number": "18.7",
+          "losungUrl": "assets/output/losung18.7.png",
+          "questionUrl": "assets/output/question18.7.png"
+        },
+        {
+          "number": "18.8",
+          "losungUrl": "assets/output/losung18.8.png",
+          "questionUrl": "assets/output/question18.8.png"
+        },
+        {
+          "number": "18.9",
+          "losungUrl": "assets/output/losung18.9.png",
+          "questionUrl": "assets/output/question18.9.png"
+        },
+        {
+          "number": "18.10",
+          "losungUrl": "assets/output/losung18.10.png",
+          "questionUrl": "assets/output/question18.10.png"
+        },
+        {
+          "number": "18.11",
+          "losungUrl": "assets/output/losung18.11.png",
+          "questionUrl": "assets/output/question18.11.png"
+        },
+        {
+          "number": "18.12",
+          "losungUrl": "assets/output/losung18.12.png",
+          "questionUrl": "assets/output/question18.12.png"
+        },
+        {
+          "number": "18.13",
+          "losungUrl": "assets/output/losung18.13.png",
+          "questionUrl": "assets/output/question18.13.png"
+        },
+        {
+          "number": "18.14",
+          "losungUrl": "assets/output/losung18.14.png",
+          "questionUrl": "assets/output/question18.14.png"
+        },
+        {
+          "number": "18.15",
+          "losungUrl": "assets/output/losung18.15.png",
+          "questionUrl": "assets/output/question18.15.png"
+        },
+        {
+          "number": "18.16",
+          "losungUrl": "assets/output/losung18.16.png",
+          "questionUrl": "assets/output/question18.16.png"
+        },
+        {
+          "number": "18.17",
+          "losungUrl": "assets/output/losung18.17.png",
+          "questionUrl": "assets/output/question18.17.png"
+        },
+        {
+          "number": "18.18",
+          "losungUrl": "assets/output/losung18.18.png",
+          "questionUrl": "assets/output/question18.18.png"
+        },
+        {
+          "number": "18.19",
+          "losungUrl": "assets/output/losung18.19.png",
+          "questionUrl": "assets/output/question18.19.png"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "title": "Sonstiges",
+      "chapters": [
+        {
+          "number": "19.1",
+          "losungUrl": "assets/output/losung19.1.png",
+          "questionUrl": "assets/output/question19.1.png"
+        },
+        {
+          "number": "19.2",
+          "losungUrl": "assets/output/losung19.2.png",
+          "questionUrl": "assets/output/question19.2.png"
+        },
+        {
+          "number": "19.3.",
+          "losungUrl": "assets/output/losung19.3..png",
+          "questionUrl": "assets/output/question19.3..png"
+        },
+        {
+          "number": "19.4",
+          "losungUrl": "assets/output/losung19.4.png",
+          "questionUrl": "assets/output/question19.4.png"
+        },
+        {
+          "number": "19.5",
+          "losungUrl": "assets/output/losung19.5.png",
+          "questionUrl": "assets/output/question19.5.png"
+        },
+        {
+          "number": "19.6",
+          "losungUrl": "assets/output/losung19.6.png",
+          "questionUrl": "assets/output/question19.6.png"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "title": "Allgemeines",
+      "chapters": [
+        {
+          "number": "20.1",
+          "losungUrl": "assets/output/losung20.1.png",
+          "questionUrl": "assets/output/question20.1.png"
+        },
+        {
+          "number": "20.2",
+          "losungUrl": "assets/output/losung20.2.png",
+          "questionUrl": "assets/output/question20.2.png"
+        },
+        {
+          "number": "20.3.",
+          "losungUrl": "assets/output/losung20.3..png",
+          "questionUrl": "assets/output/question20.3..png"
+        },
+        {
+          "number": "20.4",
+          "losungUrl": "assets/output/losung20.4.png",
+          "questionUrl": "assets/output/question20.4.png"
+        },
+        {
+          "number": "20.5",
+          "losungUrl": "assets/output/losung20.5.png",
+          "questionUrl": "assets/output/question20.5.png"
+        },
+        {
+          "number": "20.6",
+          "losungUrl": "assets/output/losung20.6.png",
+          "questionUrl": "assets/output/question20.6.png"
+        },
+        {
+          "number": "20.7",
+          "losungUrl": "assets/output/losung20.7.png",
+          "questionUrl": "assets/output/question20.7.png"
+        },
+        {
+          "number": "20.8",
+          "losungUrl": "assets/output/losung20.8.png",
+          "questionUrl": "assets/output/question20.8.png"
+        }
+      ]
+    }
+  ]
+}

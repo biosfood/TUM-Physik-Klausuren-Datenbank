@@ -3,13 +3,14 @@ from pytesseract import Output
 import pytesseract
 import argparse
 import cv2
-import textFilter as tf
-import dataStructure as ds
-import screenshot as ss
+from src import textFilter as tf
+from src import dataStructure as ds
+from src import screenshot as ss
+import os, shutil
 
 #settings
 imagePath = "assets/images/"
-images = 66
+images = 67
 ignoreImages = [1, 2, 3, 4, 5, 6, 7]
 
 debugMode = False
@@ -20,6 +21,16 @@ previousTextType = "" # "Losung" or "Chapter" or "MainChapter"
 currentMainChapter = None
 currentChapter = None
 
+#empty images from output folder
+folder = 'assets/output'
+for filename in os.listdir(folder):
+    file_path = os.path.join(folder, filename)
+    try:
+        if os.path.isfile(file_path):
+            os.unlink(file_path)
+    except Exception as e:
+        print(e)
+        
 for i in range(1, images):
     if i in ignoreImages:
         continue
@@ -58,6 +69,7 @@ for i in range(1, images):
             
             textType = tf.classifyText(text)
             previousTextType = textType
+            print(text, x)
             
             if(textType == "MainChapter"):
                 if(currentChapter != None):
@@ -87,23 +99,51 @@ for i in range(1, images):
                 cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
                 cv2.putText(image, text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX,
                     1.2, (0, 0, 255), 3)
+                
         else:
             previousTextType = ""
+        
+    #Handle page end
+    if(currentChapter != None):
+        print('\033[93m' + "Page end" + '\033[0m')
+        if(currentChapter.loesungX not in ([], None)):
+            print("Losung: " + str(currentChapter.loesungX))
+            currentChapter.calculateBoundingBoxes()
+            ss.screenshot(currentChapter, image)
+            currentChapter.questionIsRenderd = True
+    if(debugMode):
+        # show the output image
+        cv2.imwrite("output.png", image)
 
 ss.screenshot(currentChapter, image)
-currentMainChapter.addChapter(currentChapter)
+currentMainChapter.addChapter(currentChapter.getChapterClass())
 coordChapters.append(currentMainChapter)
 
+#delete old index.json if exists
+if os.path.exists("assets/index.json"):
+  os.remove("assets/index.json")
+
+#write index.json
+f = open("assets/index.json", "w")
+f.write("{\n")
+f.write("  \"chapters\": [\n")
+for mainChapter in coordChapters:
+    f.write("    {\n")
+    f.write("      \"number\": \"" + str(mainChapter.number) + "\",\n")
+    f.write("      \"title\": \"" + mainChapter.title + "\",\n")
+    f.write("      \"chapters\": [\n")
+    for chapter in mainChapter.chapters:
+        f.write("        {\n")
+        f.write("          \"number\": \"" + str(chapter.number) + "\",\n")
+        f.write("          \"losungUrl\": \"" + chapter.getLosungUrl() + "\",\n")
+        f.write("          \"questionUrl\": \"" + chapter.getQuestionUrl() + "\"\n")
+        f.write("        },\n")
+    f.write("      ]\n")
+    f.write("    },\n")
+f.write("  ]\n")
+f.write("}\n")
+
 if(debugMode): 
-#draw all bounding boxes
-    for mainChapter in coordChapters:
-        for chapter in mainChapter.getChapters():
-            cv2.rectangle(image, (chapter.loesungBoundingBox[0], chapter.loesungBoundingBox[1]), (chapter.loesungBoundingBox[2], chapter.loesungBoundingBox[3]), (255, 0, 0), 2)
-            cv2.rectangle(image, (chapter.questionBoundingBox[0], chapter.questionBoundingBox[1]), (chapter.questionBoundingBox[2], chapter.questionBoundingBox[3]), (255, 0, 0), 2)
-    
     #print data structure
     for mainChapter in coordChapters:
         mainChapter.printRecursive()
-    
-    # show the output image
-    cv2.imwrite("output.png", image)
