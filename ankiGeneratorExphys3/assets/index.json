@@ -230,13 +230,7 @@
           "number": "3.11",
           "losungUrl": "assets/output/losung3.11.png",
           "questionUrl": "assets/output/question3.11.png"
-        }
-      ]
-    },
-    {
-      "number": "gro8",
-      "title": "und",
-      "chapters": [
+        },
         {
           "number": "3.12",
           "losungUrl": "assets/output/losung3.12.png",
@@ -459,18 +453,7 @@
           "number": "6.14",
           "losungUrl": "assets/output/losung6.14.png",
           "questionUrl": "assets/output/question6.14.png"
-        }
-      ]
-    },
-    {
-      "number": "A/2:",
-      "title": "aus",
-      "chapters": []
-    },
-    {
-      "number": "/4:",
-      "title": "es",
-      "chapters": [
+        },
         {
           "number": "6.15",
           "losungUrl": "assets/output/losung6.15.png",
@@ -857,13 +840,7 @@
           "number": "8.45",
           "losungUrl": "assets/output/losung8.45.png",
           "questionUrl": "assets/output/question8.45.png"
-        }
-      ]
-    },
-    {
-      "number": "2",
-      "title": "cm.",
-      "chapters": [
+        },
         {
           "number": "8.46",
           "losungUrl": "assets/output/losung8.46.png",
@@ -1378,11 +1355,6 @@
           "number": "18.17",
           "losungUrl": "assets/output/losung18.17.png",
           "questionUrl": "assets/output/question18.17.png"
-        },
-        {
-          "number": "18.18",
-          "losungUrl": "assets/output/losung18.18.png",
-          "questionUrl": "assets/output/question18.18.png"
         },
         {
           "number": "18.19",

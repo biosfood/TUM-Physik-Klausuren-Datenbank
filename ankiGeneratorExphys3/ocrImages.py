@@ -66,6 +66,11 @@ for i in range(1, images):
         if tf.filterOcrTexts(text, conf, x, y, w, h) == True:
             #print("Confidence: {}".format(conf))
             #print("Text: {}".format(text))#
+            if(debugMode):
+                text = "".join([c if ord(c) < 128 else "" for c in text]).strip()
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                cv2.putText(image, text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX,
+                    1.2, (0, 0, 255), 3)
             
             textType = tf.classifyText(text)
             previousTextType = textType
@@ -92,13 +97,6 @@ for i in range(1, images):
             elif(textType == "Losung"):
                 if(currentChapter != None):
                     currentChapter.setLosungCoord(x, y)
-            
-
-            if(debugMode):
-                text = "".join([c if ord(c) < 128 else "" for c in text]).strip()
-                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-                cv2.putText(image, text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX,
-                    1.2, (0, 0, 255), 3)
                 
         else:
             previousTextType = ""
@@ -110,13 +108,22 @@ for i in range(1, images):
             print("Losung: " + str(currentChapter.loesungX))
             currentChapter.calculateBoundingBoxes()
             ss.screenshot(currentChapter, image)
+            currentMainChapter.addChapter(currentChapter.getChapterClass())
+            currentChapter = None
+        else:
+            print("Lösung on next page")
+            currentChapter.calculateBoundingBoxes()
+            ss.screenshot(currentChapter, image)
             currentChapter.questionIsRenderd = True
+            
     if(debugMode):
         # show the output image
         cv2.imwrite("output.png", image)
 
-ss.screenshot(currentChapter, image)
-currentMainChapter.addChapter(currentChapter.getChapterClass())
+if(currentChapter != None):
+    ss.screenshot(currentChapter, image)
+    currentMainChapter.addChapter(currentChapter.getChapterClass())
+
 coordChapters.append(currentMainChapter)
 
 #delete old index.json if exists
