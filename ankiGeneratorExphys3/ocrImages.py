@@ -10,10 +10,10 @@ import os, shutil
 
 #settings
 imagePath = "assets/images/"
-images = 67
+images = 21#67
 ignoreImages = [1, 2, 3, 4, 5, 6, 7]
 
-debugMode = False
+debugMode = True
 
 coordChapters = []
 
@@ -31,7 +31,7 @@ for filename in os.listdir(folder):
     except Exception as e:
         print(e)
         
-for i in range(1, images):
+for i in range(19, images):
     if i in ignoreImages:
         continue
     print("Image: " + str(i))
