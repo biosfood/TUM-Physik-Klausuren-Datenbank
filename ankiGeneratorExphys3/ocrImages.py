@@ -13,7 +13,7 @@ imagePath = "assets/images/"
 images = 67
 ignoreImages = [1, 2, 3, 4, 5, 6, 7]
 
-debugMode = True
+debugMode = False
 
 coordChapters = []
 
