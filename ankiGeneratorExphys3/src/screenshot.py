@@ -4,6 +4,8 @@ import os
 compression = True
 compressionScale = 40
 
+forceCompleteness = True #This forces that to every chapter a losung and question image is generated, if no image was found the whole page is saved
+
 ouputPath = "assets/output/"
 def screenshot(chapter, image):
     if(chapter == None):
@@ -12,7 +14,10 @@ def screenshot(chapter, image):
     print("ScreenShoting: " + chapter.number)
     
     #make a screenshot of the losung and question according to the bounding boxes and save the image
-    losung = image[chapter.loesungBoundingBox[1]:chapter.loesungBoundingBox[3], chapter.loesungBoundingBox[0]:chapter.loesungBoundingBox[2]]
+    losung = image[0:0, 0:0]
+    if(chapter.loesungBoundingBox != []):
+        losung = image[chapter.loesungBoundingBox[1]:chapter.loesungBoundingBox[3], chapter.loesungBoundingBox[0]:chapter.loesungBoundingBox[2]]
+    
     question = image[chapter.questionBoundingBox[1]:chapter.questionBoundingBox[3], chapter.questionBoundingBox[0]:chapter.questionBoundingBox[2]]
     
     if(compression):
@@ -32,14 +37,14 @@ def screenshot(chapter, image):
         print(losung)
         print("Losung is empty")
         print(chapter.loesungBoundingBox)
-        #generate empty image
-        height, width, channels = image.shape
-        losung = image[0:height, 0:width]
-        cv2.imwrite(ouputPath + "losung" + str(chapter.number) + ".png", losung)
+        if(forceCompleteness):
+            #generate empty image
+            height, width, channels = image.shape
+            losung = image[0:height, 0:width]
+            cv2.imwrite(ouputPath + "losung" + str(chapter.number) + ".png", losung)
 
 
 def compressImage(image):
-    
     if(image.size == 0):
         return image
     #compress image quality, while maintaining the aspect ratio

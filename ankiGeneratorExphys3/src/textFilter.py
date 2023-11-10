@@ -47,6 +47,9 @@ def classifyText(text):
     
     #Chapter if in the format 1.11
     if(text.count(".") == 1):
+        if(text == "18.18"): #Special case for 18.18 since there is an latex error in the original document
+            return "Losung"
+        
         return "Chapter"
     
     return ""

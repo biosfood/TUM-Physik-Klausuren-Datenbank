@@ -91,14 +91,19 @@ class BoundingBoxChapter:
         print("   QuestionBoundingBox: " + str(self.questionBoundingBox))
         
     def calculateBoundingBoxes(self):
+        hasLoesung = True
+        loesungCords = self.loesungX.copy()
         if(self.nextChapterX == []):
             self.nextChapterX = [self.defaultX, self.pageHeight]
-        if(self.loesungX == []):
-            self.loesungX = [self.defaultX, self.pageHeight]
+        if(loesungCords == []):
+            hasLoesung = False
+            loesungCords = [self.defaultX, self.pageHeight]
             
-            
-        self.loesungBoundingBox = [self.loesungX[0] - self.margin, self.loesungX[1] - self.margin, self.loesungX[0] + self.boxWidth, self.nextChapterX[1] - self.margin]
-        self.questionBoundingBox = [self.questionX[0] - self.margin, self.questionX[1] - self.margin, self.questionX[0] + self.boxWidth, self.loesungX[1] - self.margin]
+        
+        if(hasLoesung):   
+            self.loesungBoundingBox = [loesungCords[0] - self.margin, loesungCords[1] - self.margin, loesungCords[0] + self.boxWidth, self.nextChapterX[1] - self.margin]
+        
+        self.questionBoundingBox = [self.questionX[0] - self.margin, self.questionX[1] - self.margin, self.questionX[0] + self.boxWidth, loesungCords[1] - self.margin]
 
         
     
