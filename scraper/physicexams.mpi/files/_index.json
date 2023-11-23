@@ -1,74 +1,709 @@
-{
-  "\n        Klausur\n      ": {
-    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Klausur.pdf",
-    "fileName": "Ex1_Klausur.pdf",
-    "solution": "",
-    "solutionFileName": ""
-  },
-  "\n        Lsg\n      ": {
-    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2011-2012_lsg.pdf",
-    "fileName": "exph1_probeklausur_2011-2012_lsg.pdf",
-    "solution": "",
-    "solutionFileName": ""
-  },
-  "\n        Wiederholungsklausur\n      ": {
-    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2018-2019.pdf",
-    "fileName": "exph1_nachklausur_2018-2019.pdf",
-    "solution": "",
-    "solutionFileName": ""
-  },
-  "\n        Probeklausur\n      ": {
-    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2011-2012.pdf",
-    "fileName": "exph1_probeklausur_2011-2012.pdf",
-    "solution": "",
-    "solutionFileName": ""
-  },
-  "_3Bqpqcb.pdf": {
-    "link": "",
-    "fileName": "",
+[
+  {
+    "title": "Experimentalphysik1,Klausur1,2011/12",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_2pqsT0B.pdf",
+    "fileName": "Aufgaben_2pqsT0B.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_3Bqpqcb.pdf",
     "solutionFileName": "Loesungen_3Bqpqcb.pdf"
   },
-  ".pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Klausur,2009/10",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2009-2010.pdf",
+    "fileName": "exph1_klausur_2009-2010.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2009-2010_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2009-2010_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2010/11",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben.pdf",
+    "fileName": "Aufgaben.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen.pdf",
     "solutionFileName": "Loesungen.pdf"
   },
-  "_WTyGOqs.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Klausur,2012/13",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_3YQ7ODK.pdf",
+    "fileName": "Aufgaben_3YQ7ODK.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_WTyGOqs.pdf",
     "solutionFileName": "Loesungen_WTyGOqs.pdf"
   },
-  "_QgRV3JT.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Klausur,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2014-2015.pdf",
+    "fileName": "exph1_klausur_2014-2015.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2014-2015_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2014-2015_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2015-2016.pdf",
+    "fileName": "exph1_klausur_2015-2016.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2015-2016_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2015-2016_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2016-2017.pdf",
+    "fileName": "exph1_klausur_2016-2017.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2016-2017_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2016-2017_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys1_17_K.pdf",
+    "fileName": "ExPhys1_17_K.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys1_17_K_lsg.pdf",
+    "solutionFileName": "ExPhys1_17_K_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2018-2019_mL98sX0.pdf",
+    "fileName": "exph1_klausur_2018-2019_mL98sX0.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2018-2019_lsg_nU3gm7h.pdf",
+    "solutionFileName": "exph1_klausur_2018-2019_lsg_nU3gm7h.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhy1201920Klausur.pdf",
+    "fileName": "ExPhy1201920Klausur.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2019-2020_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2019-2020_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Klausur,2021/22",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Klausur.pdf",
+    "fileName": "Ex1_Klausur.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Klausur_Lösung.pdf",
+    "solutionFileName": "Ex1_Klausur_Lösung.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2009/10",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachholklausur_2009-2010.pdf",
+    "fileName": "exph1_nachholklausur_2009-2010.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachholklausur_2009-2010_lsg.pdf",
+    "solutionFileName": "exph1_nachholklausur_2009-2010_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2010/11",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_P7jVQIr.pdf",
+    "fileName": "Aufgaben_P7jVQIr.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_QgRV3JT.pdf",
     "solutionFileName": "Loesungen_QgRV3JT.pdf"
   },
-  "_6ERZ9uI.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Nachklausur,2011/12",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2011-2012.pdf",
+    "fileName": "exph1_nachklausur_2011-2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2011-2012_lsg.pdf",
+    "solutionFileName": "exph1_nachklausur_2011-2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2012/13",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_SiSuN8p.pdf",
+    "fileName": "Aufgaben_SiSuN8p.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_6ERZ9uI.pdf",
     "solutionFileName": "Loesungen_6ERZ9uI.pdf"
   },
-  "_XZYHCmN.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Nachklausur,2013/14",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2013-2014.pdf",
+    "fileName": "exph1_nachklausur_2013-2014.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2013-2014_lsg.pdf",
+    "solutionFileName": "exph1_nachklausur_2013-2014_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_uT0cKr0.pdf",
+    "fileName": "Aufgaben_uT0cKr0.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_XZYHCmN.pdf",
     "solutionFileName": "Loesungen_XZYHCmN.pdf"
   },
-  "_CSkMXw9.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Nachklausur,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_LbDre0n.pdf",
+    "fileName": "Aufgaben_LbDre0n.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_CSkMXw9.pdf",
     "solutionFileName": "Loesungen_CSkMXw9.pdf"
   },
-  "_TdETYgF.pdf": {
-    "link": "",
-    "fileName": "",
+  {
+    "title": "Experimentalphysik1,Nachklausur,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2016-2017.pdf",
+    "fileName": "exph1_nachklausur_2016-2017.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2016-2017_lsg.pdf",
+    "solutionFileName": "exph1_nachklausur_2016-2017_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2017-2018.pdf",
+    "fileName": "exph1_nachklausur_2017-2018.pdf",
     "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_TdETYgF.pdf",
     "solutionFileName": "Loesungen_TdETYgF.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2018-2019_PYp8JVR.pdf",
+    "fileName": "exph1_nachklausur_2018-2019_PYp8JVR.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2018-2019_lsg_mtJvaZH.pdf",
+    "solutionFileName": "exph1_nachklausur_2018-2019_lsg_mtJvaZH.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Nachklausur,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2018-2019.pdf",
+    "fileName": "exph1_nachklausur_2018-2019.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_nachklausur_2018-2019_lsg.pdf",
+    "solutionFileName": "exph1_nachklausur_2018-2019_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2010/11",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2010-2011.pdf",
+    "fileName": "exph1_probeklausur_2010-2011.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2010-2011_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2010-2011_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2011/12",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2011-2012.pdf",
+    "fileName": "exph1_probeklausur_2011-2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2011-2012_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2011-2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2014-2015.pdf",
+    "fileName": "exph1_probeklausur_2014-2015.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2014-2015_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2014-2015_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2015-2016.pdf",
+    "fileName": "exph1_probeklausur_2015-2016.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2015-2016_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2015-2016_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2016-2017.pdf",
+    "fileName": "exph1_probeklausur1_2016-2017.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2016-2017_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur1_2016-2017_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2017-2018_1CQ47EV.pdf",
+    "fileName": "exph1_probeklausur1_2017-2018_1CQ47EV.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2017-2018_lsg_dtZZrH8.pdf",
+    "solutionFileName": "exph1_probeklausur1_2017-2018_lsg_dtZZrH8.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2018-2019.pdf",
+    "fileName": "exph1_klausur_2018-2019.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_klausur_2018-2019_lsg.pdf",
+    "solutionFileName": "exph1_klausur_2018-2019_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2019-2020.pdf",
+    "fileName": "exph1_probeklausur1_2019-2020.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur1_2019-2020_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur1_2019-2020_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur1,2021/22",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Probeklausur.pdf",
+    "fileName": "Ex1_Probeklausur.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Probeklausur_Losung.pdf",
+    "solutionFileName": "Ex1_Probeklausur_Losung.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur,2009/10",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2009-2010.pdf",
+    "fileName": "exph1_probeklausur_2009-2010.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2009-2010_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2009-2010_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur,2012/13",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2012-2013.pdf",
+    "fileName": "exph1_probeklausur_2012-2013.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur_2012-2013_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur_2012-2013_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2013/14",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur2_2013-2014.pdf",
+    "fileName": "exph1_probeklausur2_2013-2014.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur2_2013-2014_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur2_2013-2014_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur2_2014-2015.pdf",
+    "fileName": "exph1_probeklausur2_2014-2015.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph1_probeklausur2_2014-2015_lsg.pdf",
+    "solutionFileName": "exph1_probeklausur2_2014-2015_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1516.pdf",
+    "fileName": "PK2_1516.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1516_Lsg.pdf",
+    "solutionFileName": "PK2_1516_Lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1617.pdf",
+    "fileName": "PK2_1617.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1617_Lsg.pdf",
+    "solutionFileName": "PK2_1617_Lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1718.pdf",
+    "fileName": "PK2_1718.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/PK2_1718_Lsg.pdf.pdf",
+    "solutionFileName": "PK2_1718_Lsg.pdf.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/K1819_Lsg.pdf",
+    "fileName": "K1819_Lsg.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de",
+    "solutionFileName": null
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Probeklausur_2_ExPhys1.pdf",
+    "fileName": "Probeklausur_2_ExPhys1.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Probeklausur_2_ExPhys1_Lösung.pdf",
+    "solutionFileName": "Probeklausur_2_ExPhys1_Lösung.pdf"
+  },
+  {
+    "title": "Experimentalphysik1,Probeklausur2,2021/22",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Probeklausur2.pdf",
+    "fileName": "Ex1_Probeklausur2.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex1_Probeklausur2_Lösung.pdf",
+    "solutionFileName": "Ex1_Probeklausur2_Lösung.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur1,2009",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_YTRPOou.pdf",
+    "fileName": "A_YTRPOou.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_ZOoB6fl.pdf",
+    "solutionFileName": "L_ZOoB6fl.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2011",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_lc6TzuV.pdf",
+    "fileName": "A_lc6TzuV.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_O6gkogx.pdf",
+    "solutionFileName": "L_O6gkogx.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2012",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_klausur_2012.pdf",
+    "fileName": "exph2_klausur_2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_klausur_2012_lsg.pdf",
+    "solutionFileName": "exph2_klausur_2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur2013",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_ArJXUzp.pdf",
+    "fileName": "A_ArJXUzp.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_RlU8Vwq.pdf",
+    "solutionFileName": "L_RlU8Vwq.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2014",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_yG0AUe6.pdf",
+    "fileName": "Aufgaben_yG0AUe6.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_NkiHd9D.pdf",
+    "solutionFileName": "Loesungen_NkiHd9D.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2015",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_C9JeihU.pdf",
+    "fileName": "Aufgaben_C9JeihU.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_LIeubc1.pdf",
+    "solutionFileName": "Loesungen_LIeubc1.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2016",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_HQLdHvS.pdf",
+    "fileName": "Aufgaben_HQLdHvS.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_qK0SmKC.pdf",
+    "solutionFileName": "Loesungen_qK0SmKC.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2017",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A.pdf",
+    "fileName": "A.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L.pdf",
+    "solutionFileName": "L.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2018",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_6XEGl6J.pdf",
+    "fileName": "Aufgaben_6XEGl6J.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_osdRFtb.pdf",
+    "solutionFileName": "Loesungen_osdRFtb.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2019",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_S7XTzF7.pdf",
+    "fileName": "Auf_S7XTzF7.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_cFOJ6uT.pdf",
+    "solutionFileName": "Lsg_cFOJ6uT.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_oQKXjTx.pdf",
+    "fileName": "A_oQKXjTx.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_YnKzEz3.pdf",
+    "solutionFileName": "L_YnKzEz3.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Klausur,2021",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex2_Klausur2021.pdf",
+    "fileName": "Ex2_Klausur2021.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex2_Klausur_Losung2021.pdf",
+    "solutionFileName": "Ex2_Klausur_Losung2021.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2009",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_2.pdf",
+    "fileName": "A_2.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_2.pdf",
+    "solutionFileName": "L_2.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2010",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_nachklausur_2010.pdf",
+    "fileName": "exph2_nachklausur_2010.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_nachklausur_2010_lsg.pdf",
+    "solutionFileName": "exph2_nachklausur_2010_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2011",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_1.pdf",
+    "fileName": "A_1.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_1.pdf",
+    "solutionFileName": "L_1.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2012",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_nachklausur_2012.pdf",
+    "fileName": "exph2_nachklausur_2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_nachklausur_2012_lsg.pdf",
+    "solutionFileName": "exph2_nachklausur_2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2013",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_nlVbUH3.pdf",
+    "fileName": "A_nlVbUH3.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_3n5gXDH.pdf",
+    "solutionFileName": "L_3n5gXDH.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2014",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_R2JNanb.pdf",
+    "fileName": "A_R2JNanb.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_jUaGyde.pdf",
+    "solutionFileName": "L_jUaGyde.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2015",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_ZQLvAD9.pdf",
+    "fileName": "Aufgaben_ZQLvAD9.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_0RQOeFq.pdf",
+    "solutionFileName": "Loesungen_0RQOeFq.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2016",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben-1.pdf",
+    "fileName": "Aufgaben-1.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen-1.pdf",
+    "solutionFileName": "Loesungen-1.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2017",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_4y0RL9b.pdf",
+    "fileName": "A_4y0RL9b.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_SRi0X5m.pdf",
+    "solutionFileName": "L_SRi0X5m.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Nachklausur,2018",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_5lo3DNK.pdf",
+    "fileName": "Auf_5lo3DNK.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_5a5zh0l.pdf",
+    "solutionFileName": "Lsg_5a5zh0l.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2010",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_ox83gnr.pdf",
+    "fileName": "A_ox83gnr.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_CkBrP3A.pdf",
+    "solutionFileName": "L_CkBrP3A.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2014",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_qdTke70.pdf",
+    "fileName": "Aufgaben_qdTke70.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_probeklausur_2014_lsg.pdf",
+    "solutionFileName": "exph2_probeklausur_2014_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2015",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_H1tej1H.pdf",
+    "fileName": "A_H1tej1H.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_rj5Qtwx.pdf",
+    "solutionFileName": "L_rj5Qtwx.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2016",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_btOvTx6.pdf",
+    "fileName": "A_btOvTx6.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_COWDkvw.pdf",
+    "solutionFileName": "L_COWDkvw.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2017",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_8cJ4wwm.pdf",
+    "fileName": "A_8cJ4wwm.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_J8aaJ1o.pdf",
+    "solutionFileName": "L_J8aaJ1o.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2019",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_emZAEjx.pdf",
+    "fileName": "Auf_emZAEjx.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_7PF1pod.pdf",
+    "solutionFileName": "Lsg_7PF1pod.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur1,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex2_Probeklausur_aufg_2020.pdf",
+    "fileName": "Ex2_Probeklausur_aufg_2020.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex2_Probeklausur_2020_Losung.pdf",
+    "solutionFileName": "Ex2_Probeklausur_2020_Losung.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Probeklausur,2012",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_probeklausur_2012.pdf",
+    "fileName": "exph2_probeklausur_2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_probeklausur_2012_lsg.pdf",
+    "solutionFileName": "exph2_probeklausur_2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik2,Semestrale,2010",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_semestrale_2010.pdf",
+    "fileName": "exph2_semestrale_2010.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph2_semestrale_2010_lsg.pdf",
+    "solutionFileName": "exph2_semestrale_2010_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Kausur,2013/14",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2013-2014.pdf",
+    "fileName": "exph3_klausur_2013-2014.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2013-2014_lsg.pdf",
+    "solutionFileName": "exph3_klausur_2013-2014_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2009/10",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_dHsObW7.pdf",
+    "fileName": "Aufgaben_dHsObW7.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_TJaM2DO.pdf",
+    "solutionFileName": "Lsg_TJaM2DO.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2010/11",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_PMtJlXC.pdf",
+    "fileName": "Aufgaben_PMtJlXC.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lösungen.pdf",
+    "solutionFileName": "Lösungen.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2011/12",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_dU6LnmP.pdf",
+    "fileName": "Aufgaben_dU6LnmP.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lösung.pdf",
+    "solutionFileName": "Lösung.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2012/13",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_u0Dpkv9.pdf",
+    "fileName": "Auf_u0Dpkv9.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_TsCMhEF.pdf",
+    "solutionFileName": "Lsg_TsCMhEF.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2014-2015.pdf",
+    "fileName": "exph3_klausur_2014-2015.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2014-2015_lsg.pdf",
+    "solutionFileName": "exph3_klausur_2014-2015_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2015-2016.pdf",
+    "fileName": "exph3_klausur_2015-2016.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2015-2016_lsg.pdf",
+    "solutionFileName": "exph3_klausur_2015-2016_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys3_16_K.pdf",
+    "fileName": "ExPhys3_16_K.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys3_16_K_Lsg.pdf",
+    "solutionFileName": "ExPhys3_16_K_Lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2017-2018.pdf",
+    "fileName": "exph3_klausur_2017-2018.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_klausur_2017-2018_lsg_gwnI5OM.pdf",
+    "solutionFileName": "exph3_klausur_2017-2018_lsg_gwnI5OM.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Klausur_Pjtt6jO.pdf",
+    "fileName": "Ex3_Klausur_Pjtt6jO.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Klausur_Lisung.pdf",
+    "solutionFileName": "Ex3_Klausur_Lisung.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Klausur,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Klausur.pdf",
+    "fileName": "Ex3_Klausur.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Klausurlisung.pdf",
+    "solutionFileName": "Ex3_Klausurlisung.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachausur,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_wiederholungsklausur_2014-2015.pdf",
+    "fileName": "exph3_wiederholungsklausur_2014-2015.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_wiederholungsklausur_2014-2015_lsg.pdf",
+    "solutionFileName": "exph3_wiederholungsklausur_2014-2015_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachklausur,2011/12",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_nachklausur_2011-2012.pdf",
+    "fileName": "exph3_nachklausur_2011-2012.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_nachklausur_2011-2012_lsg.pdf",
+    "solutionFileName": "exph3_nachklausur_2011-2012_lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachklausur,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys3_16_NK.pdf",
+    "fileName": "ExPhys3_16_NK.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/ExPhys3_16_NK_Lsg.pdf",
+    "solutionFileName": "ExPhys3_16_NK_Lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachklausur,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_nachklausur_2017-2018.pdf",
+    "fileName": "exph3_nachklausur_2017-2018.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/exph3_nachklausur_2017-2018_lsg_hPPRvSr.pdf",
+    "solutionFileName": "exph3_nachklausur_2017-2018_lsg_hPPRvSr.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachklausur,2018/19",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Aufgaben_ZTTKgB7.pdf",
+    "fileName": "Aufgaben_ZTTKgB7.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Loesungen_wPDD64w.pdf",
+    "solutionFileName": "Loesungen_wPDD64w.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Nachklausur2019/2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Nachklausur.pdf",
+    "fileName": "Ex3_Nachklausur.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Ex3_Nachklausur_Lisung.pdf",
+    "solutionFileName": "Ex3_Nachklausur_Lisung.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2012/13",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_kCy63AV.pdf",
+    "fileName": "Auf_kCy63AV.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_0NGVqaB.pdf",
+    "solutionFileName": "Lsg_0NGVqaB.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2013/14",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_CyQxXzA.pdf",
+    "fileName": "Auf_CyQxXzA.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_CtdbJSO.pdf",
+    "solutionFileName": "Lsg_CtdbJSO.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2014/15",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_UtRpX1v.pdf",
+    "fileName": "Auf_UtRpX1v.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_av45PoS.pdf",
+    "solutionFileName": "Lsg_av45PoS.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2015/16",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_LXSTckQ.pdf",
+    "fileName": "Auf_LXSTckQ.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_gkJzLES.pdf",
+    "solutionFileName": "Lsg_gkJzLES.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2016/17",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf_Vtd8jXk.pdf",
+    "fileName": "Auf_Vtd8jXk.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_owWbgfv.pdf",
+    "solutionFileName": "Lsg_owWbgfv.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2017/18",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/aufgaben.pdf",
+    "fileName": "aufgaben.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg.pdf",
+    "solutionFileName": "Lsg.pdf"
+  },
+  {
+    "title": "Experimentalphysik3,Probeklausur1,2019/20",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Auf.pdf",
+    "fileName": "Auf.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lsg_h7QSKvr.pdf",
+    "solutionFileName": "Lsg_h7QSKvr.pdf"
+  },
+  {
+    "title": "Experimentalphysik4,Klausur,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_dxPOtiq.pdf",
+    "fileName": "A_dxPOtiq.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_g3nWsdk.pdf",
+    "solutionFileName": "L_g3nWsdk.pdf"
+  },
+  {
+    "title": "Experimentalphysik4,Nachklausur,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_PxJUU8W.pdf",
+    "fileName": "A_PxJUU8W.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_g2REmbw.pdf",
+    "solutionFileName": "L_g2REmbw.pdf"
+  },
+  {
+    "title": "Experimentalphysik4,Probeklausur1,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/A_4Oq8ixR.pdf",
+    "fileName": "A_4Oq8ixR.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/L_4nCtihc.pdf",
+    "solutionFileName": "L_4nCtihc.pdf"
+  },
+  {
+    "title": "TheoretischePhysik1,Klausur,2020",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Theo_1_Angabe.pdf",
+    "fileName": "Theo_1_Angabe.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Theo_1_Lösung.pdf",
+    "solutionFileName": "Theo_1_Lösung.pdf"
+  },
+  {
+    "title": "TheoretischePhysik2,Klausur,2020/21",
+    "link": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Klausur_Angabe.pdf",
+    "fileName": "Klausur_Angabe.pdf",
+    "solution": "https://physicsexams.mpi.fs.tum.de/media/exam_pdf/Lösung_Klausur_1.pdf",
+    "solutionFileName": "Lösung_Klausur_1.pdf"
   }
-}
+]

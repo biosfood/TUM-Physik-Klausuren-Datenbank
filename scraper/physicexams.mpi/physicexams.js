@@ -1,145 +1,148 @@
-const puppeteer = require("puppeteer");
-const fs = require("fs");
-const path = require("path");
+//Load all html files in the directory "requests"
+var fs = require("fs");
+const { get } = require("http");
+var path = require("path");
 const axios = require("axios");
 const https = require("https");
 
-const websiteUrl = "https://physicsexams.mpi.fs.tum.de/exerciseSet/Klausur";
+var dir = path.join(__dirname, "requests");
+var files = fs.readdirSync(dir);
+
+const baseAssetsUrl = "https://physicsexams.mpi.fs.tum.de";
 const downloadDirectory = "./files";
-const downloadDelay = 1000; //ms
-const dryRund = true; // Set to true if you only want to generate the index file without downloading the files
-const silent = true; // Set to true if you don't want to see the progress messages
-const pages = 6; // Number of pages to scrape
+const downloadDelay = 1000;
 
-scrapeAndDownloadPDFs(websiteUrl, downloadDirectory)
-    .then(() => printProgress("Scraping and downloading complete."))
-    .catch((error) => console.error("An error occurred:", error));
+//File Index Structure:
+//  {
+//    "title": "title_of_exam",
+//    "link": "link_to_pdf",
+//    "fileName": "name_of_local_file"
+//    "solution": "link_to_solution_pdf"
+//    "solutionFileName": "name_of_local_solution_file"
+//  }
+var fileIndex = [];
 
-async function loopThroughPages(url) {
-    for (let i = 1; i <= pages; i++) {
-        await scrapeAndDownloadPDFs(url, i);
-    }
+for (file in files) {
+  var file = path.join(dir, files[file]);
+  var html = fs.readFileSync(file, "utf8");
+  html = cleanup(html);
+  var blocks = splitIntoBlocks(html);
+  getIndexData(blocks);
+  fs.writeFileSync("files/_index.json", JSON.stringify(fileIndex));
 }
 
-async function scrapePDFLinks(url, pageIndex) {
-    const browser = await puppeteer.launch({ ignoreHTTPSErrors: true });
-    const page = await browser.newPage();
-    await page.goto(url);
-    await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait for 1 second to let server render
+downloadAllFilesInIndex();
 
-    // Click on element with id = "page" + pageIndex
-    console.log('[id="page' + pageIndex + '"]');
-    await page.click('[id="page' + pageIndex + '"]');
-    await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait for 1 second to let server render
-
-    page
-        .on("console", (message) => console.log(`${message.type().substr(0, 3).toUpperCase()} ${message.text()}`))
-        .on("pageerror", ({ message }) => console.log(message))
-        .on("response", (response) => console.log(`${response.status()} ${response.url()}`))
-        .on("requestfailed", (request) => console.log(`${request.failure().errorText} ${request.url()}`));
-
-    const pdfLinks = await page.evaluate(() => {
-        const links = Array.from(document.querySelectorAll("a"));
-        let pdfLinks = [];
-
-        for (let link of links) {
-            if (link.href.toLowerCase().endsWith(".pdf")) {
-                pdfLinks.push({
-                    name: link.innerHTML,
-                    link: link.href,
-                });
-            }
-        }
-        return pdfLinks;
-    });
-
-    await browser.close();
-
-    return pdfLinks;
+async function downloadAllFilesInIndex() {
+  for (let element of fileIndex) {
+    await downloadPDF(element.link, downloadDirectory);
+    await downloadPDF(element.solution, downloadDirectory);
+    await new Promise((resolve) => setTimeout(resolve, downloadDelay));
+  }
 }
 
 async function downloadPDF(url, directory) {
-    const response = await axios.get(url, {
-        responseType: "stream",
-        httpsAgent: new https.Agent({ rejectUnauthorized: false }),
-    });
-    const fileName = path.basename(url);
-    const filePath = path.join(directory, fileName);
-    const writer = fs.createWriteStream(filePath);
+  const response = await axios.get(url, {
+    responseType: "stream",
+    httpsAgent: new https.Agent({ rejectUnauthorized: false }),
+  });
+  const fileName = path.basename(url);
+  const filePath = path.join(directory, fileName);
+  const writer = fs.createWriteStream(filePath);
 
-    response.data.pipe(writer);
+  response.data.pipe(writer);
 
-    return new Promise((resolve, reject) => {
-        writer.on("finish", resolve);
-        writer.on("error", reject);
-    });
+  return new Promise((resolve, reject) => {
+    writer.on("finish", resolve);
+    writer.on("error", reject);
+  });
 }
 
-async function scrapeAndDownloadPDFs(url, directory) {
-    const pdfLinks = await scrapePDFLinks(url, 2);
-    const index = {};
+function cleanup(html) {
+  //Remove all whitespace
+  html = html.replace(/\s/g, "");
+  //Remove all linebreaks
+  html = html.replace(/\n/g, "");
+  html = html.replace(/\\n/g, "");
+  //Remove all tabs
+  html = html.replace(/\t/g, "");
 
-    const solutionIndex = [];
-
-    for (const link of pdfLinks) {
-        // Generate index entry
-        //console.log(link)
-        console.log(link);
-        const fileName = path.basename(link.link);
-        if (fileName.startsWith("Loesungen")) {
-            const examName = fileName.replace("Loesungen", "");
-            const solutionName = fileName;
-            solutionIndex.push({ examName: examName, solution: solutionName, solutionLink: link.link });
-        } else {
-            const examLink = link.link;
-            const examName = link.name;
-            index[examName] = { link: examLink, fileName: fileName, solution: "", solutionFileName: "" };
-        }
-        try {
-            printProgress(`Downloading: ${link.link}`);
-            if (!dryRund) {
-                await downloadPDF(link.link, directory);
-                printProgress(`Downloaded: ${link.link}`);
-            } else {
-                printProgress("Dry run, not downloading anything.");
-            }
-        } catch (error) {
-            console.error(`Failed to download ${link.link}. Error: ${error.message}`);
-        }
-
-        // Add a delay between each download to avoid getting blocked by the server
-        if (!dryRund) {
-            await new Promise((resolve) => setTimeout(resolve, downloadDelay));
-        }
-    }
-
-    //Match solutions to exams
-    console.log(index);
-    for (const solution of solutionIndex) {
-        //get property in index that matches the exam name
-        exam = Object.keys(index).find((key) => index[key].fileName === solution.examName);
-
-        console.log(exam);
-        if (exam == undefined) {
-            console.error(`Could not find exam for ${solution.examName}.`);
-            index[solution.examName] = {
-                link: "",
-                fileName: "",
-                solution: solution.solutionLink,
-                solutionFileName: solution.solution,
-            };
-        } else {
-            index[exam].solution = solution.solutionLink;
-            index[exam].solutionFileName = solution.solution;
-        }
-    }
-
-    const indexFilePath = path.join(directory, "_index.json");
-    fs.writeFileSync(indexFilePath, JSON.stringify(index, null, 2));
+  return html;
 }
 
-function printProgress(message) {
-    if (!silent) {
-        console.log(message);
+function getIndexData(blocks) {
+  for (let i = 0; i < blocks.length; i++) {
+    let block = blocks[i];
+    links = filterPDFLinks(block);
+    if (links.length != 2) {
+      console.log("ERROR: Block does not contain 2 links");
+      console.log(links);
+      links.push("");
     }
+    let title = getTitle(block);
+    console.log(title);
+
+    let indexEntry = {
+      title: title,
+      link: baseAssetsUrl + links[0],
+      fileName: getFileName(links[0]),
+      solution: baseAssetsUrl + links[1],
+      solutionFileName: getFileName(links[1]),
+    };
+
+    fileIndex.push(indexEntry);
+  }
+}
+
+function germanize(string) {
+  string = string.replace(/\\u([0-9a-fA-F]{4})/g, (m, cc) => String.fromCharCode("0x" + cc));
+  return string;
+}
+
+function getFileName(link) {
+  var fileName = link.match(/[^\/]*\.pdf/);
+  if (fileName) {
+    fileName = fileName[0];
+  }
+  return fileName;
+}
+
+function getTitle(block) {
+  var title = block.match(/<b>.*?<\/b>/g);
+  if (title) {
+    title = title[0].replace(/<b.*?>/, "").replace(/<\/b>/, "");
+  }
+  return title;
+}
+
+function splitIntoBlocks(html) {
+  //split into blocks that start with <tr and end with </tr> and contain .pdf
+  var blocks = html.match(/<trclass='trSpecial'>.*?<\/tr>/g);
+  if (blocks) {
+    blocks = blocks.map(function (block) {
+      return block.replace(/<trclass='trSpecial'>/, "").replace(/<\/tr>/, "");
+    });
+  }
+
+  for (let i = 0; i < blocks.length; i++) {
+    if (!blocks[i].includes(".pdf")) {
+      blocks.splice(i, 1);
+      i--;
+    }
+  }
+
+  return blocks;
+}
+
+function filterPDFLinks(html) {
+  var links = html.match(/href='([^']*\.pdf)'/g);
+  if (links) {
+    links = links.map(function (link) {
+      return link.replace(/href='/, "").replace(/'/, "");
+    });
+  }
+  for (let i = 0; i < links.length; i++) {
+    links[i] = germanize(links[i]);
+  }
+  return links;
 }

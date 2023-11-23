@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>Aufgabensammlung</title>
+  
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" type="image/jpg" href="/static/physicsexamsApp/favicon.svg" />
+
+  <link rel="stylesheet" type='text/css' href="/static/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type='text/css' href="/static/node_modules/bootstrap-select/dist/css/bootstrap-select.min.css" />
+  <link rel="stylesheet" type="text/css" href="/static/fonts/fontawesome/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="/static/physicsexamsApp/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="/static/study_buddy/css/base.css" />
+
+  
+  
+</head>
+
+<body style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto clicked_test w-100">
+        <li class="nav-item mt-3 mt-lg-0" id="Home">
+          <a class="nav-link active" href="/"><b>𝓛 Physics Exams</b></a>
+        </li>
+        <li class="nav-item dropdown" id="Aufgabensammlung">
+          <a class="nav-link" href="/exerciseSet/Aufgabensammlung"
+            onclick="location.href=this.href+'/'+JSON.stringify(visit_status);return false;">Aufgabensammlung</a>
+        </li>
+        <li class="nav-item" id='Klausuren'>
+          <a class="nav-link" href="/exerciseSet/Klausur"
+            onclick="location.href=this.href+'/'+JSON.stringify(visit_status);return false;">Klausuren</a>
+        </li>
+        <li class="nav-item" id='Praktikum'>
+          <a class="nav-link" href="/praktikum"
+            onclick="location.href=this.href+'/'+JSON.stringify(visit_status);return false;">Praktikumsberichte</a>
+        </li>
+        <li class="nav-item" id='Statistik'>
+          <a class="nav-link" href="/statistics">Statistik</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" style="color:var(--bs-orange)" href="/buddy/home/">Study-Buddy</a>
+        </li>
+
+        <div class="vr ms-lg-auto mx-3 d-none d-lg-block"></div>
+        <hr class="hr d-lg-none">
+
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/help/">Hilfe</a>
+        </li>
+
+        <li class="nav-item" id='Auth'>
+          
+          <a class="nav-link" href="/oidc/authenticate/?next=/">Login</a>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Inhalt der Website wird hier eingefuegt -->
+  <div class="container-fluid mt-4 mt-lg-5 pt-5 pb-3 myc">
+    
+    <noscript>
+      <div class="card shadow-sm border-danger mb-3" style="background-color: #ff634733">
+        <div class="card-body">
+          <p>Wir haben festgestellt, dass du kein JavaScript aktiviert hast. Wir respektieren diese
+            Entscheidung, müssen dich allerdings warnen.</p> <b>Alle</b> Ergebnisse dieser Seite werden mittels
+          JavaScript geladen. Du wirst also ohne JavaScript nicht so viel Spaß haben.
+        </div>
+      </div>
+    </noscript>
+
+    
+    
+    <div id="base-alert-container"></div>
+
+    
+    <div id="base-alert-container"></div>
+
+    
+<div class='card shadow-sm mb-5'>
+  <div class='card-header text-center'>
+    <h2>Willkommen!</h2>
+  </div>
+  <div class='card-body'>
+    Liebe Kommilitonen und Kommilitoninnen,
+    <br>
+    <br>
+    Diese Website der Physikfachschaft der TUM ist eine Klausursammlung. Alle hier gelisteten Klausuren wurden im
+    Einverständnis der jeweiligen Professoren hochgeladen.
+    <br>
+    <br>
+    Wenn ihr noch weitere Wünsche und oder Vorschläge habt, freuen wir uns sehr darüber! Auch Leute, die dieses
+    Projekt gerne unterstützen würden, sind jederzeit herzlich willkommen! Für Anfragen dieser Art schreibt einfach eine
+    Mail an <a href="mailto:physicsexams@fs.tum.de">physicsexams@fs.tum.de</a> und sie wird hoffentlich so schnell wie möglich beantwortet.
+    Viel Spaß beim Durchrechnen der Klausuren! Lasst euch dabei nicht entmutigen, ihr wisst ja: Übung macht den Meister!
+    <br>
+    <br>
+    Herzliche Grüße
+    <br>
+    Felix, Ria und Lukas im Namen der Physikfachschaft
+  </div>
+</div>
+
+  </div>
+
+  <div class="mt-5">
+  <footer class="container-fluid-footer">
+    <nav class="text-center text-light p-1">
+      <a href="https://fs.tum.de/impressum/">Impressum der Fachschaft MPI</a>
+      -
+      <a href="https://fs.tum.de/datenschutz/">Allgemeine Datenschutzerklärung</a>
+    </nav>
+  </footer>
+</div>
+
+  
+  <script src='/static/node_modules/jquery/dist/jquery.min.js'></script>
+  <script src='/static/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+  <script src="/static/physicsexamsApp/js/base.js"></script>
+  
+  
+</body>
+</html>
