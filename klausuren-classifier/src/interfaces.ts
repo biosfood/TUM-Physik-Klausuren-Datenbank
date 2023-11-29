@@ -32,6 +32,7 @@ export interface ClassifierEntry {
   solution: string;
   semester: string;
   subject: Subjects;
+  isExercise?: boolean;
 }
 
 export interface ExamIndex {
